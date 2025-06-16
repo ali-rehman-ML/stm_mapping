@@ -50,7 +50,7 @@ python align_vis.py
 ```
 
 - Growth.
-For Allignmnet Visualization , configure Alignment [Config](config/growth_vis.yaml)
+For Growth Visualization , configure Growth Visualization [Config](config/growth_vis.yaml)
 
 ```bash
 python growth_vis.py
