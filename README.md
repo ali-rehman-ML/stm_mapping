@@ -25,3 +25,36 @@ sudo python3 setup.py install
 cd 3rd-party/fast_gicp
 python3 setup.py install --user
 ```
+
+### Result Visualization
+
+For Visualization install dependencies from [requirements.txt](requirements.txt)
+
+Installing Dependecies in anaconda Environmnet is Recommended. 
+Download and Setup [Anaconda](https://www.anaconda.com/download)
+
+#### Setup
+
+```bash
+conda create -n stm_env python=3.10
+conda activate stm_env
+pip install -r requirements.txt
+
+```
+#### Run Visualization
+- Alignment.
+For Allignmnet Visualization , configure Alignment [Config](config/allign_config.yaml)
+
+```bash
+python align_vis.py
+```
+
+- Growth.
+For Allignmnet Visualization , configure Alignment [Config](config/growth_vis.yaml)
+
+```bash
+python growth_vis.py
+```
+
+
+
